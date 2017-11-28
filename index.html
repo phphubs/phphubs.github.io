@@ -3,6 +3,7 @@
 <head>
   <meta charset='UTF-8'/>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Abel|Open+Sans:300" rel="stylesheet">
   <link rel="icon" href="/favicon.ico">
   <title>echo "Hey HI Hello!" > &#9813;</title>
   <style>
@@ -29,20 +30,38 @@
       height: 60%;
       background: rgba(44, 62, 80, 0.3);
     }
+    .heart-deep {
+      color: #D81B60;
+      background: rgba(236, 240, 241, 0.8);
+    }
     @media screen and (max-width: 768px) {
       body {
         font-size: 30px;
       }
+    }
+    .heart-fixed {
+      position: fixed;
+      bottom: 5px;
+      right: 15px;
+    }
+    .heart-fixed a {
+      color: white;
+      text-decoration: none;
+      color: rgba(255, 255, 255, 0.2);
     }
   </style>
 </head>
 <body class="heart-center">
   <div class='heart-box heart-center'>
     <div class='heart-box heart-center'>
-      <div class='heart-box heart-center'>
+      <div class='heart-box heart-center heart-deep'>
         Hey Hi Hello!
       </div>
     </div>
   </div>
+  <div class='heart-fixed'>
+    <a href='/despacito'>♥</a>
+  </div>
+  <!-- /.fixed -->
 </body>
 </html>
